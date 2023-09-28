@@ -4,10 +4,10 @@
   tasks: 
   - name: creating file
     file: 
-     path: /var/mayank
+     path: /tmp/hari
      state: touch 
      mode: 0400
   - name: creating folder
     file: 
-     path: /usr/mayank
+     path: /tmp/h2
      state: directory
