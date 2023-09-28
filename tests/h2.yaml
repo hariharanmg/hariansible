@@ -11,3 +11,8 @@
     file: 
      path: /tmp/h2
      state: directory
+  - name: Print
+    debug:
+      msg: " {{ name_test }} "
+      
+    
